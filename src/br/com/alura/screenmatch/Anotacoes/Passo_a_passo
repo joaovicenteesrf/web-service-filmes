@@ -1,0 +1,16 @@
+Nesse projeto será definido como consumir API's, gravar arquivos e lidar com erros no Java.
+
+1 - Cadastrar uma API Key:
+    Independente da API a ser utilizada, uma API Key deve ser cadastrada. Ela é o identificador de quem está fazendo as
+    requisições.
+    Nesse projeto usaremos a OMDb API: http://www.omdbapi.com/
+
+2 - Instanciar um client, uma request e uma response HTTP:
+    As requisições HTTP são feitas pelo Java nativamente através da classe HTTP Request. A documentação oficial do Java
+    é uma ótima fonte de estudo e consulta para esses casos (HttpRequest e HttpResponse).
+
+3 - Configurar o Gson:
+    O Gson é uma biblioteca criada pelo google para transformar json em objetos, serializar e disserializa-los.
+
+4 - Criar uma classe do tipo Record para guardar os atributos que virão no Json. Em seguida, instanciar o builder do
+Gson da maneira correta para tratar maiúsculas e minúsculas.

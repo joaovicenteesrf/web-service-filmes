@@ -1,0 +1,23 @@
+Classe Record é um recurso introduzido no Java 14 que simplifica a criação de classes de transferência de dados
+(DTOs - Data Transfer Objects). Ela permite definir classes imutáveis de forma concisa, com menos código e fornecendo
+automaticamente métodos comuns, como getters, equals, hashCode e toString.
+
+Para criar uma classe Record, você define seus campos no cabeçalho da classe e o compilador automaticamente gera o
+construtor, os getters e os métodos comuns mencionados anteriormente. Aqui está um exemplo básico de uma classe Record
+em Java:
+
+public record Pessoa(String nome, int idade) {
+    // Corpo da classe (opcional)
+}
+
+No exemplo acima, a classe Pessoa é uma classe Record com dois campos: nome e idade. O compilador Java gerará
+automaticamente um construtor que recebe os valores desses campos, bem como métodos getNome() e getIdade() para acessar
+os valores dos campos. Além disso, ele fornecerá implementações padrão para os métodos equals(), hashCode() e toString()
+com base nos campos da classe.
+
+As classes Record são imutáveis, o que significa que seus campos não podem ser modificados após a criação do objeto.
+Para atualizar os valores dos campos, é necessário criar um novo objeto Record com os valores desejados.
+
+As classes Record são úteis quando você precisa criar objetos para armazenar dados simples e transferir esses dados
+entre diferentes partes do seu programa. Elas ajudam a reduzir a quantidade de código repetitivo necessário para criar
+e manipular esses objetos, fornecendo uma implementação automática para as operações comuns.
