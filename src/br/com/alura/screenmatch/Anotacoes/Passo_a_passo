@@ -14,3 +14,5 @@ Nesse projeto será definido como consumir API's, gravar arquivos e lidar com er
 
 4 - Criar uma classe do tipo Record para guardar os atributos que virão no Json. Em seguida, instanciar o builder do
 Gson da maneira correta para tratar maiúsculas e minúsculas.
+
+5 - Organizar os atributos que possuem nomes diferentes daqueles que vieram no JSON
