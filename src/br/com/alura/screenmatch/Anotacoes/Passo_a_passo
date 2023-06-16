@@ -16,3 +16,7 @@ Nesse projeto será definido como consumir API's, gravar arquivos e lidar com er
 Gson da maneira correta para tratar maiúsculas e minúsculas.
 
 5 - Organizar os atributos que possuem nomes diferentes daqueles que vieram no JSON
+    Para isso é necessário criar uma classe do tipo Record com os atributos que serão usados a partir do JSON.
+    Após a criação da classe record, é necessário adicionar um novo construtor para a classe principal, que receberá
+    o record como parâmetro.
+
